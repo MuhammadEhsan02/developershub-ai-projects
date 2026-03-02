@@ -1,0 +1,15 @@
+# Core Python libraries
+torch
+transformers
+datasets
+sentence-transformers
+faiss-cpu
+numpy
+python-dotenv
+
+# OpenAI Agents SDK (Gemini integration)
+openai-agents
+
+# Optional for better performance or future upgrades
+accelerate
+streamlit

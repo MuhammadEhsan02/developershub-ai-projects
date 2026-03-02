@@ -1,0 +1,27 @@
+[project]
+name = "mental-health-support-chatbot-fine-tuned"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Ehsan", email = "sehrishshafiq345@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=4.5.0",
+    "faiss-cpu>=1.13.2",
+    "openai-agents>=0.10.1",
+    "python-dotenv>=1.2.1",
+    "sentence-transformers>=5.2.3",
+    "torch>=2.10.0",
+    "torchaudio>=2.10.0",
+    "torchvision>=0.25.0",
+    "transformers>=5.2.0",
+]
+
+[project.scripts]
+mental-health-support-chatbot-fine-tuned = "mental_health_support_chatbot_fine_tuned:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,7 @@
+
+# requirements.txt for Stock Price Prediction Project
+
+pandas==3.0.0
+matplotlib==3.10.8
+scikit-learn==1.8.0
+yfinance==1.1.0
